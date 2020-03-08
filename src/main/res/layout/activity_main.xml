@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/choosecross"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="28dp"
+        android:text="选择叉先手"
+        app:layout_column="2"
+        app:layout_constraintStart_toEndOf="@+id/reset"
+        app:layout_constraintTop_toBottomOf="@+id/bt22"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/bt00"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/background_light"
+        android:visibility="visible"
+        app:layout_column="0"
+        app:layout_constraintBottom_toTopOf="@+id/bt10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/bt10"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@android:color/background_light"
+        app:layout_column="0"
+        app:layout_constraintEnd_toStartOf="@+id/bt11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/bt11"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="288dp"
+        android:background="@android:color/background_light"
+        app:layout_column="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/bt12"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@android:color/background_light"
+        app:layout_column="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/bt20"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@android:color/background_light"
+        app:layout_column="0"
+        app:layout_constraintEnd_toStartOf="@+id/bt21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt10"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/bt21"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/background_light"
+        app:layout_column="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt11"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/bt22"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@android:color/background_light"
+        app:layout_column="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt12"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/bt01"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/background_light"
+        app:layout_column="1"
+        app:layout_constraintBottom_toTopOf="@+id/bt11"
+        app:layout_constraintEnd_toStartOf="@+id/bt02"
+        app:layout_constraintStart_toEndOf="@+id/bt00"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/bt02"
+        android:layout_width="123dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/background_light"
+        app:layout_column="2"
+        app:layout_constraintBottom_toTopOf="@+id/bt12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/choosecircle"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="选择圆先手"
+        app:layout_column="0"
+        app:layout_constraintEnd_toStartOf="@+id/reset"
+        app:layout_constraintTop_toBottomOf="@+id/bt20"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="重置"
+        app:layout_column="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt21"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/circle_turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:text="circle turn"
+        app:layout_constraintEnd_toStartOf="@+id/cross_turn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cross_turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="cross turn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/circleScore"
+        android:layout_width="64dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorAccent"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/circle_turn" />
+
+    <TextView
+        android:id="@+id/crossScore"
+        android:layout_width="64dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cross_turn" />
+
+    <Button
+        android:id="@+id/initialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="初始化比分"
+        app:layout_constraintEnd_toStartOf="@+id/crossScore"
+        app:layout_constraintStart_toEndOf="@+id/circleScore"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
